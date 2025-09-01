@@ -28,7 +28,7 @@ a grid, create new users via a modal, and manage user state with Redux.
 ### 1. Clone the Repository
 
 ``` bash
-git clone https://github.com/your-username/user-dashboard.git
+git clone https://github.com/suman021999/user-dashboard
 cd user-dashboard
 ```
 
