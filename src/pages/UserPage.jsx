@@ -106,7 +106,7 @@ const UserPage = () => {
     </div>
 
     {/* Full Address */}
-    <div className="sm:col-span-2">
+    <div >
       <p className="text-gray-500">Address</p>
       <p className="font-medium">
         {user.address?.street}, {user.address?.suite},{" "}
@@ -114,10 +114,10 @@ const UserPage = () => {
       </p>
     </div>
 
-    <div>
+    {/* <div>
       <p className="text-gray-500">Role</p>
       <p className="font-medium">Administrator</p>
-    </div>
+    </div> */}
 
     {/* Geo Location */}
     <div>

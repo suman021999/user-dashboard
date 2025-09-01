@@ -15,7 +15,7 @@ const Dashboard = () => {
   useEffect(() => {
     // Fetch API users only if no local users exist
     if (users.length === 0) {
-      axios.get("https://jsonplaceholder.typicode.com/users")
+      axios.get("https://jsonplaceholder.typicode.com/users") 
         .then((res) => dispatch(setUsers(res.data)))
         .catch((err) => console.error("Error fetching users:", err));
     }

@@ -53,7 +53,7 @@ const EditUserModal = ({ user, onClose }) => {
           </div>
 
           {/* Username & Role */}
-          <div className="grid grid-cols-2 gap-4">
+          <div >
             <div>
               <label className="block text-sm text-gray-500 mb-1">
                 Username
@@ -65,7 +65,7 @@ const EditUserModal = ({ user, onClose }) => {
                 className="w-full border-2 border-gray-300 focus:ring-2 focus:ring-blue-500 rounded-lg p-2 text-sm   outline-none"
               />
             </div>
-            <div>
+            {/* <div>
               <label className="block text-sm text-gray-500 mb-1">Role</label>
               <input
                 name="role"
@@ -73,7 +73,8 @@ const EditUserModal = ({ user, onClose }) => {
                 onChange={handleChange}
                 className="w-full border-2 border-gray-300 focus:ring-2 focus:ring-blue-500 rounded-lg p-2 text-sm   outline-none"
               />
-            </div>
+            </div> */}
+
           </div>
 
           {/* Email & Phone */}
@@ -136,6 +137,7 @@ const EditUserModal = ({ user, onClose }) => {
               className="w-full border-2 border-gray-300 focus:ring-2 focus:ring-blue-500 rounded-lg p-2 text-sm   outline-none"
             />
           </div>
+          
         </div>
 
         {/* Footer */}

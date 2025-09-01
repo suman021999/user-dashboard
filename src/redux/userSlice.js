@@ -48,6 +48,3 @@ const userSlice = createSlice({
 export const { setUsers, addUser, updateUser, deleteUser } = userSlice.actions;
 export default userSlice.reducer;
 
-
-
-
