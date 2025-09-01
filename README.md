@@ -19,6 +19,7 @@ a grid, create new users via a modal, and manage user state with Redux.
 -   **React** (Vite or CRA depending on setup)\
 -   **Redux Toolkit** for state management\
 -   **TailwindCSS** for styling
+--  **Axios** for fetching
 
 ------------------------------------------------------------------------
 
