@@ -29,9 +29,9 @@ const UserPage = () => {
         <div className="flex items-center gap-2">
           <button
             onClick={() => navigate(-1)}
-            className="flex items-center text-gray-600 hover:text-gray-800 border-2 border-gray-300 rounded-lg px-3 py-1 hover:bg-gray-200 transition"
+            className="flex items-center cursor-pointer text-gray-600 hover:text-gray-800 border-2 border-gray-300 rounded-lg px-3 py-1 hover:bg-gray-200 transition"
           >
-            <ArrowLeft size={18} className="mr-1 cursor-pointer" />
+            <ArrowLeft size={18} className="mr-1 " />
             Back to Users
           </button>
           <h1 className="text-lg font-semibold text-gray-900">

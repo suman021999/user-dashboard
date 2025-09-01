@@ -43,7 +43,7 @@ const Dashboard = () => {
       <input
         type="text"
         placeholder="Search users by name..."
-        className="border px-4 py-2 rounded-lg mb-6 w-full"
+        className="border-2 border-gray-400 px-4 py-2 mb-6 w-full focus:ring-2 focus:ring-blue-500 rounded-lg p-2 text-sm   outline-none"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
